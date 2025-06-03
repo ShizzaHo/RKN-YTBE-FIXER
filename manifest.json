@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "РКН YT.BE Фиксер",
+  "version": "1.0",
+  "description": "Исправляет проблему одной из самых гланых НЕ ''санкций'' РФ. Перенаправляет ссылки с youtu.be на полные ссылки YouTube.",
+  "permissions": ["declarativeNetRequest"],
+  "host_permissions": ["*://youtu.be/*"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
